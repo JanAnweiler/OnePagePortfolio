@@ -113,18 +113,7 @@ letter-spacing: .05rem;
     margin: 10px;
     filter: brightness(70%);
 }
-#header .nav-bar .brand::after
-{
-    content:"";
-    position: absolute;
-    left:323px;
-    top:15px;
-    height:78%;
-    width: 3.6%;
-    border: 3px solid yellow;
-    z-index: -1;
-    border-radius: 3%;
-}
+
 #header .nav-list ul a
 {
     font-size: 2.5rem;
@@ -858,6 +847,18 @@ text-transform: uppercase;
     margin-bottom: 30px;  
     border-radius: 10px;
     margin-left: 100px;
+}
+#header .nav-bar .brand::after
+{
+    content:"";
+    position: absolute;
+    left:323px;
+    top:15px;
+    height:78%;
+    width: 3.6%;
+    border: 3px solid yellow;
+    z-index: -1;
+    border-radius: 3%;
 }
 }
 
